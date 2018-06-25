@@ -12,11 +12,10 @@ const Review = (props) => (
 
 const Reviews = () => (
 	<div>
-		<Review str="Идеально!" stars="10" />
-		<Review str="Отстой полный!" stars="1" />
-		<Review str="Ну так, сойдет." stars="4" />
-		<Review str="Классно:)" stars="8" />
-		<Review str="Нормально." stars="6" />
+		<Review str="Отлично!" stars="5" />		
+		<Review str="Хорошо!" stars="4" />
+		<Review str="Удовлетворительно" stars="3" />
+		<Review str="Неудовлетворительно" stars="2" />
 	</div>
 );
 
